@@ -1,0 +1,40 @@
+{
+  "name": "text-texteditor",
+  "version": "1.0.0",
+  "description": "Custom rich text editor field with Summernote integration",
+  "main": "form-field.config.js",
+  "scripts": {
+    "dev": "echo 'Dev server not available in manual build'",
+    "build": "mkdir -p dist && cp -r src dist/ && cp form-field.config.js dist/ && cp package.json dist/",
+    "zip": "rm -rf ./text-texteditor.zip ./dist && npm run build && cd ./dist && zip -q -r ../text-texteditor.zip . && rm -rf ../dist",
+    "unzip": "rm -rf ./text-texteditor && unzip text-texteditor.zip -d ./text-texteditor"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@kissflow/form-field-config": "^0.0.2",
+    "@kissflow/form-field-scripts": "^0.0.7"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ],
+    "rules": {}
+  },
+  "keywords": [
+    "lcnc",
+    "no-code",
+    "low-code",
+    "platform",
+    "react",
+    "cli",
+    "kissflow",
+    "custom-components",
+    "custom-fields"
+  ],
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
