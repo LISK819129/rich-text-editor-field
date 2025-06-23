@@ -26,9 +26,6 @@ This is a custom rich text editor component designed for KissFlow workflows. The
 - **Paste Mode Toggle** - Switch between formatted paste (preserves styling) and plain text paste
 - **Image Support** - Paste and display images with automatic responsive sizing
 - **Link Support** - Create and display clickable links
-- **Readonly Mode** - Display content without editing capabilities
-- **Error Handling** - Display validation errors
-- **Custom Styling** - Configurable colors and themes
 
 ## Technical Requirements
 
