@@ -86,3 +86,9 @@ This component relies on browser-native rich text editing features (`contentEdit
 
 This is a Kissflow's custom form field project, scaffolded using `@kissflow/create-kf-component`.
 
+## Screenshots  
+
+### Main Interface
+![Main Interface](https://i.postimg.cc/fb1wJhYQ/Screenshot-2025-06-20-at-1-52-36-PM.png)
+
+
